@@ -1,0 +1,342 @@
+#TYPE System.Diagnostics.EventLogEntry#Application/Symphony Bluelight iExchange/0
+"EventID","MachineName","Data","Index","Category","CategoryNumber","EntryType","Message","Source","ReplacementStrings","InstanceId","TimeGenerated","TimeWritten","UserName","Site","Container"
+"0","PL-Win7Dual","System.Byte[]","21575","(0)","0","Information","Service stopped successfully.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:58:08","13/10/2015 15:58:08",,,
+"0","PL-Win7Dual","System.Byte[]","21574","(0)","0","Information","Service started successfully.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:38","13/10/2015 15:57:38",,,
+"0","PL-Win7Dual","System.Byte[]","21573","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_7321","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:38","13/10/2015 15:57:38",,,
+"0","PL-Win7Dual","System.Byte[]","21572","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Results files have been generated but no e-mail will be sent to ALL_7321.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:38","13/10/2015 15:57:38",,,
+"0","PL-Win7Dual","System.Byte[]","21571","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:37","13/10/2015 15:57:37",,,
+"0","PL-Win7Dual","System.Byte[]","21570","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_7321'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:25","13/10/2015 15:57:25",,,
+"0","PL-Win7Dual","System.Byte[]","21569","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:25","13/10/2015 15:57:25",,,
+"0","PL-Win7Dual","System.Byte[]","21568","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_7331","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:25","13/10/2015 15:57:25",,,
+"0","PL-Win7Dual","System.Byte[]","21567","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to ALL_7331.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:25","13/10/2015 15:57:25",,,
+"0","PL-Win7Dual","System.Byte[]","21566","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:24","13/10/2015 15:57:24",,,
+"0","PL-Win7Dual","System.Byte[]","21565","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_7331'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:08","13/10/2015 15:57:08",,,
+"0","PL-Win7Dual","System.Byte[]","21564","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:08","13/10/2015 15:57:08",,,
+"0","PL-Win7Dual","System.Byte[]","21563","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_AB","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:08","13/10/2015 15:57:08",,,
+"0","PL-Win7Dual","System.Byte[]","21562","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to ALL_AB.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:08","13/10/2015 15:57:08",,,
+"0","PL-Win7Dual","System.Byte[]","21561","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_PROP_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:08","13/10/2015 15:57:08",,,
+"0","PL-Win7Dual","System.Byte[]","21560","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_DATA_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:08","13/10/2015 15:57:08",,,
+"0","PL-Win7Dual","System.Byte[]","21559","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: AddressBasePremium_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:08","13/10/2015 15:57:08",,,
+"0","PL-Win7Dual","System.Byte[]","21558","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:57:07","13/10/2015 15:57:07",,,
+"0","PL-Win7Dual","System.Byte[]","21557","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_AB'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:56:57","13/10/2015 15:56:57",,,
+"0","PL-Win7Dual","System.Byte[]","21556","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:56:57","13/10/2015 15:56:57",,,
+"0","PL-Win7Dual","System.Byte[]","21555","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: PLYM_AB","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:56:57","13/10/2015 15:56:57",,,
+"0","PL-Win7Dual","System.Byte[]","21554","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to PLYM_AB.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:56:57","13/10/2015 15:56:57",,,
+"0","PL-Win7Dual","System.Byte[]","21553","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 1160_NO_HIST_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:56:57","13/10/2015 15:56:57",,,
+"0","PL-Win7Dual","System.Byte[]","21552","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 1160_HIST_PROP_ONLY_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:56:56","13/10/2015 15:56:56",,,
+"0","PL-Win7Dual","System.Byte[]","21551","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: AddressBasePremium_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:56:56","13/10/2015 15:56:56",,,
+"0","PL-Win7Dual","System.Byte[]","21550","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:56:56","13/10/2015 15:56:56",,,
+"0","PL-Win7Dual","System.Byte[]","21549","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'PLYM_AB'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:34","13/10/2015 15:45:34",,,
+"0","PL-Win7Dual","System.Byte[]","21548","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:34","13/10/2015 15:45:34",,,
+"0","PL-Win7Dual","System.Byte[]","21547","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: DFRS_AB","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:34","13/10/2015 15:45:34",,,
+"0","PL-Win7Dual","System.Byte[]","21546","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated. An e-mail will still be be sent to DFRS_AB.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:29","13/10/2015 15:45:29",,,
+"0","PL-Win7Dual","System.Byte[]","21545","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_PROP_NO_HIST_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:29","13/10/2015 15:45:29",,,
+"0","PL-Win7Dual","System.Byte[]","21544","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_PROP_HIST_PROP_ONLY_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:28","13/10/2015 15:45:28",,,
+"0","PL-Win7Dual","System.Byte[]","21543","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_PROP_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:28","13/10/2015 15:45:28",,,
+"0","PL-Win7Dual","System.Byte[]","21542","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_DATA_NO_HIST_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:28","13/10/2015 15:45:28",,,
+"0","PL-Win7Dual","System.Byte[]","21541","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_DATA_HIST_PROP_ONLY_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:28","13/10/2015 15:45:28",,,
+"0","PL-Win7Dual","System.Byte[]","21540","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_DATA_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:27","13/10/2015 15:45:27",,,
+"0","PL-Win7Dual","System.Byte[]","21539","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:27","13/10/2015 15:45:27",,,
+"0","PL-Win7Dual","System.Byte[]","21538","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'DFRS_AB'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:21","13/10/2015 15:45:21",,,
+"0","PL-Win7Dual","System.Byte[]","21537","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:21","13/10/2015 15:45:21",,,
+"0","PL-Win7Dual","System.Byte[]","21536","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_RES_7321","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:21","13/10/2015 15:45:21",,,
+"0","PL-Win7Dual","System.Byte[]","21535","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to ALL_RES_7321.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:21","13/10/2015 15:45:21",,,
+"0","PL-Win7Dual","System.Byte[]","21534","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:21","13/10/2015 15:45:21",,,
+"0","PL-Win7Dual","System.Byte[]","21533","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_RES_7321'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:06","13/10/2015 15:45:06",,,
+"0","PL-Win7Dual","System.Byte[]","21532","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:06","13/10/2015 15:45:06",,,
+"0","PL-Win7Dual","System.Byte[]","21531","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_COM_7321","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:06","13/10/2015 15:45:06",,,
+"0","PL-Win7Dual","System.Byte[]","21530","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to ALL_COM_7321.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:06","13/10/2015 15:45:06",,,
+"0","PL-Win7Dual","System.Byte[]","21529","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:45:06","13/10/2015 15:45:06",,,
+"0","PL-Win7Dual","System.Byte[]","21528","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_COM_7321'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:50","13/10/2015 15:44:50",,,
+"0","PL-Win7Dual","System.Byte[]","21527","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:50","13/10/2015 15:44:50",,,
+"0","PL-Win7Dual","System.Byte[]","21526","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_RES_7331","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:50","13/10/2015 15:44:50",,,
+"0","PL-Win7Dual","System.Byte[]","21525","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to ALL_RES_7331.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:50","13/10/2015 15:44:50",,,
+"0","PL-Win7Dual","System.Byte[]","21524","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:50","13/10/2015 15:44:50",,,
+"0","PL-Win7Dual","System.Byte[]","21523","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_RES_7331'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:33","13/10/2015 15:44:33",,,
+"0","PL-Win7Dual","System.Byte[]","21522","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:33","13/10/2015 15:44:33",,,
+"0","PL-Win7Dual","System.Byte[]","21521","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_COM_7331","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:33","13/10/2015 15:44:33",,,
+"0","PL-Win7Dual","System.Byte[]","21520","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to ALL_COM_7331.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:33","13/10/2015 15:44:33",,,
+"0","PL-Win7Dual","System.Byte[]","21519","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:33","13/10/2015 15:44:33",,,
+"0","PL-Win7Dual","System.Byte[]","21518","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_COM_7331'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:17","13/10/2015 15:44:17",,,
+"0","PL-Win7Dual","System.Byte[]","21517","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:17","13/10/2015 15:44:17",,,
+"0","PL-Win7Dual","System.Byte[]","21516","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_RES_AB","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:17","13/10/2015 15:44:17",,,
+"0","PL-Win7Dual","System.Byte[]","21515","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to ALL_RES_AB.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:17","13/10/2015 15:44:17",,,
+"0","PL-Win7Dual","System.Byte[]","21514","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_DATA_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:17","13/10/2015 15:44:17",,,
+"0","PL-Win7Dual","System.Byte[]","21513","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_PROP_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:17","13/10/2015 15:44:17",,,
+"0","PL-Win7Dual","System.Byte[]","21512","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: AddressBasePremium_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:17","13/10/2015 15:44:17",,,
+"0","PL-Win7Dual","System.Byte[]","21511","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:17","13/10/2015 15:44:17",,,
+"0","PL-Win7Dual","System.Byte[]","21510","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_RES_AB'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:05","13/10/2015 15:44:05",,,
+"0","PL-Win7Dual","System.Byte[]","21509","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:05","13/10/2015 15:44:05",,,
+"0","PL-Win7Dual","System.Byte[]","21508","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: ALL_COM_AB","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:05","13/10/2015 15:44:05",,,
+"0","PL-Win7Dual","System.Byte[]","21507","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated. An e-mail will still be be sent to ALL_COM_AB.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:00","13/10/2015 15:44:00",,,
+"0","PL-Win7Dual","System.Byte[]","21506","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_DATA_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:44:00","13/10/2015 15:44:00",,,
+"0","PL-Win7Dual","System.Byte[]","21505","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: 7009_LO_PROP_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:43:59","13/10/2015 15:43:59",,,
+"0","PL-Win7Dual","System.Byte[]","21504","(0)","0","Error","Symphony Bluelight iExchange Error: 
+
+Error when trying to transform file: AddressBasePremium_20151013_01.csv.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+Invalid column name 'PARENT_ADDRESSABLE_UPRN'.
+","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:43:59","13/10/2015 15:43:59",,,
+"0","PL-Win7Dual","System.Byte[]","21503","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:43:59","13/10/2015 15:43:59",,,
+"0","PL-Win7Dual","System.Byte[]","21502","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'ALL_COM_AB'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:43:47","13/10/2015 15:43:47",,,
+"0","PL-Win7Dual","System.Byte[]","21501","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:43:47","13/10/2015 15:43:47",,,
+"0","PL-Win7Dual","System.Byte[]","21500","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: PLYM_7321","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:43:47","13/10/2015 15:43:47",,,
+"0","PL-Win7Dual","System.Byte[]","21499","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Results files have been generated but no e-mail will be sent to PLYM_7321.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:43:47","13/10/2015 15:43:47",,,
+"0","PL-Win7Dual","System.Byte[]","21498","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:43:46","13/10/2015 15:43:46",,,
+"0","PL-Win7Dual","System.Byte[]","21497","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'PLYM_7321'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:41:48","13/10/2015 15:41:48",,,
+"0","PL-Win7Dual","System.Byte[]","21496","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:41:48","13/10/2015 15:41:48",,,
+"0","PL-Win7Dual","System.Byte[]","21495","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: PLYM_7331","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:41:48","13/10/2015 15:41:48",,,
+"0","PL-Win7Dual","System.Byte[]","21494","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Results files have been generated but no e-mail will be sent to PLYM_7331.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:41:48","13/10/2015 15:41:48",,,
+"0","PL-Win7Dual","System.Byte[]","21493","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:41:47","13/10/2015 15:41:47",,,
+"0","PL-Win7Dual","System.Byte[]","21492","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'PLYM_7331'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:19","13/10/2015 15:40:19",,,
+"0","PL-Win7Dual","System.Byte[]","21491","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:19","13/10/2015 15:40:19",,,
+"0","PL-Win7Dual","System.Byte[]","21490","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: DFRS_7321","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:19","13/10/2015 15:40:19",,,
+"0","PL-Win7Dual","System.Byte[]","21489","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to DFRS_7321.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:19","13/10/2015 15:40:19",,,
+"0","PL-Win7Dual","System.Byte[]","21488","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:18","13/10/2015 15:40:18",,,
+"0","PL-Win7Dual","System.Byte[]","21487","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'DFRS_7321'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:14","13/10/2015 15:40:14",,,
+"0","PL-Win7Dual","System.Byte[]","21486","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:14","13/10/2015 15:40:14",,,
+"0","PL-Win7Dual","System.Byte[]","21485","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 13/10/2015 at All for Recipient: DFRS_7331","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:14","13/10/2015 15:40:14",,,
+"0","PL-Win7Dual","System.Byte[]","21484","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:06","13/10/2015 15:40:06",,,
+"0","PL-Win7Dual","System.Byte[]","21483","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 13/10/2015 at All for recipient 'DFRS_7331'","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:02","13/10/2015 15:40:02",,,
+"0","PL-Win7Dual","System.Byte[]","21482","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:02","13/10/2015 15:40:02",,,
+"0","PL-Win7Dual","System.Byte[]","21481","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+iExchange process started on 13/10/2015 at 15:40","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:02","13/10/2015 15:40:02",,,
+"0","PL-Win7Dual","System.Byte[]","21480","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Full Path: C:\Program Files\Aligned Assets Limited\Bluelight iExchange\Symphony Bluelight iExchange Service.exe
+My Application Data Path: C:\Users\alignedassets\AppData\Roaming\Symphony
+My Install Path: C:\Program Files\Aligned Assets Limited\Bluelight iExchange","Symphony Bluelight iExchange","System.String[]","0","13/10/2015 15:40:01","13/10/2015 15:40:01",,,

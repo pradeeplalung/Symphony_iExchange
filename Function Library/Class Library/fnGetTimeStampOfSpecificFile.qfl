@@ -1,0 +1,7 @@
+Function fnGetTimeStampOfSpecificFile(vFileName)
+			dim fso, file, lastUpdated
+			Set fso = CreateObject("Scripting.FileSystemObject")
+			set file = fso.GetFile (vFileName)
+			lastUpdated =  file.DateLastModified
+			fnGetTimeStampOfSpecificFile = lastUpdated
+End Function

@@ -1,0 +1,21 @@
+Function fnEventViewerLogFileDetail()
+			strComputer = "."
+			Set objWMIService = GetObject("winmgmts:" _
+				& "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
+			
+			Set colLoggedEvents = objWMIService.ExecQuery _
+				("Select * from Win32_NTLogEvent Where Logfile = 'Application'")
+			
+			For Each objEvent in colLoggedEvents
+				Print "Category: " & objEvent.Category
+				Print "Computer Name: " & objEvent.ComputerName
+				Print "Event Code: " & objEvent.EventCode
+				Print "Message: " & objEvent.Message
+				Print "Record Number: " & objEvent.RecordNumber
+				Print "Source Name: " & objEvent.SourceName
+				Print "Time Written: " & objEvent.TimeWritten
+				Print "Event Type: " & objEvent.Type
+				Print "User: " & objEvent.User
+			Next
+
+End Function

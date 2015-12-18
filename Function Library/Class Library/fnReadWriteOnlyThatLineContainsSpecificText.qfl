@@ -1,0 +1,29 @@
+Function fnReadWriteOnlyThatLineContainsSpecificText(vFilePath, vSearchText)
+	
+
+Const ForReading = 1
+Const ForWriting = 2
+
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+Set objTextFile = objFSO.OpenTextFile _
+    ("C:\Automation\BL_iEx\AutomatedInstall\InstallLog\AutoProcess2015_08_12.log", ForReading)
+
+
+Do Until objTextFile.AtEndOfStream 'and fnSearchPattern(".msi",strNewText) = ".msi"
+    	strLine = objTextFile.ReadLine
+'    	print "First Line :"&strLine
+		intFailure = InStr(strLine, "\Bluelight iExchange 5")
+    If intFailure > 0 Then
+        strNewText = strLine
+     End If
+   
+Loop
+'End Function
+
+ print "strNewText  :"&strNewText
+		objTextFile.Close
+		Set objTextFile = objFSO.OpenTextFile _
+		    ("C:\Automation\BL_iEx\AutomatedInstall\InstallLog\bluelight_iexchange_log2.txt", ForWriting)
+		objTextFile.Write(strNewText)
+		objTextFile.Close
+End Function

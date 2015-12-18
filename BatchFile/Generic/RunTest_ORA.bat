@@ -1,0 +1,9 @@
+net stop MSSQLSERVER
+net stop SQLWriter
+
+net start OracleOraDb11g_home1TNSListener
+net start OracleServiceSYMPHONY
+net start OracleJobSchedulerSYMPHONY
+net start OracleDBConsoleSYMPHONY
+net start OracleVssWriterSYMPHONY
+C:\Automation\Sym_iEx\InitializationVBScript\QTPLaunch_ORA.vbs

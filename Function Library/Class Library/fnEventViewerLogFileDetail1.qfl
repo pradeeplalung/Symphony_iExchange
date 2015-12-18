@@ -1,0 +1,36 @@
+Function fnEventViewerLogFileDetail(vMessage,vSourceName)
+			strComputer = "."
+
+			Set objWMIService = GetObject("winmgmts:" _
+				& "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
+			
+			Set colLoggedEvents = objWMIService.ExecQuery _
+				("Select * from Win32_NTLogEvent Where Logfile = 'Application'")
+
+			For Each objEvent in colLoggedEvents
+
+
+				Print "Message: " & objEvent.Message
+
+'				
+
+				Print "Source Name: " & objEvent.SourceName
+				print "*************************************"
+'''''				***************************************
+'''''				Print "Record Number: " & objEvent.RecordNumber
+''''				'Print "Category: " & objEvent.Category
+'''''				Print "Computer Name: " & objEvent.ComputerName
+'''''				Print "Event Code: " & objEvent.EventCode
+'''''				Print "Time Written: " & objEvent.TimeWritten
+'''''				Print "Event Type: " & objEvent.Type
+'''''				Print "User: " & objEvent.User
+''''				***************************************
+				If  objEvent.Message =trim(vMessage) and  objEvent.SourceName = trim(vSourceName) Then
+					print "Go it"
+					systemutil.Run "C:\Bluelight\AutomatedInstall\ClearEventViewerList.bat"
+					Exit function
+					else 
+					print "Not yet"
+				End If
+			Next
+End Function

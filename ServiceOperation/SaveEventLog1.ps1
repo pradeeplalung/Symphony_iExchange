@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -NoLogo -NoProfile -Command "Get-EventLog -Log "Application" | Export-CSV C:\Automation\ServiceOperation\service2.csv"

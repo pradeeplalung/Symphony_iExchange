@@ -1,0 +1,54 @@
+#TYPE System.Diagnostics.EventLogEntry#Application/Symphony Bluelight iExchange/0
+"EventID","MachineName","Data","Index","Category","CategoryNumber","EntryType","Message","Source","ReplacementStrings","InstanceId","TimeGenerated","TimeWritten","UserName","Site","Container"
+"0","PL-Win7Dual","System.Byte[]","21343","(0)","0","Information","Service stopped successfully.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:55:17","20/08/2015 17:55:17",,,
+"0","PL-Win7Dual","System.Byte[]","21342","(0)","0","Information","Service started successfully.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:59","20/08/2015 17:54:59",,,
+"0","PL-Win7Dual","System.Byte[]","21341","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 20/08/2015 at All for Recipient: ALL_7321","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:59","20/08/2015 17:54:59",,,
+"0","PL-Win7Dual","System.Byte[]","21340","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to ALL_7321.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:59","20/08/2015 17:54:59",,,
+"0","PL-Win7Dual","System.Byte[]","21339","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:58","20/08/2015 17:54:58",,,
+"0","PL-Win7Dual","System.Byte[]","21338","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 20/08/2015 at All for recipient 'ALL_7321'","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:58","20/08/2015 17:54:58",,,
+"0","PL-Win7Dual","System.Byte[]","21337","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:58","20/08/2015 17:54:58",,,
+"0","PL-Win7Dual","System.Byte[]","21336","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 20/08/2015 at All for Recipient: PLYM_7331","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:58","20/08/2015 17:54:58",,,
+"0","PL-Win7Dual","System.Byte[]","21335","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+No results files were generated, and no e-mail will be sent to PLYM_7331.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:58","20/08/2015 17:54:58",,,
+"0","PL-Win7Dual","System.Byte[]","21334","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:57","20/08/2015 17:54:57",,,
+"0","PL-Win7Dual","System.Byte[]","21333","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 20/08/2015 at All for recipient 'PLYM_7331'","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:57","20/08/2015 17:54:57",,,
+"0","PL-Win7Dual","System.Byte[]","21332","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:57","20/08/2015 17:54:57",,,
+"0","PL-Win7Dual","System.Byte[]","21331","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process ended on 20/08/2015 at All for Recipient: DFRS_7331","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:57","20/08/2015 17:54:57",,,
+"0","PL-Win7Dual","System.Byte[]","21330","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The Results tables have been populated and the files will now be generated.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:50","20/08/2015 17:54:50",,,
+"0","PL-Win7Dual","System.Byte[]","21329","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Symphony Bluelight iExchange process run started on 20/08/2015 at All for recipient 'DFRS_7331'","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:49","20/08/2015 17:54:49",,,
+"0","PL-Win7Dual","System.Byte[]","21328","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+The version of the Symphony Bluelight iExchange database module is 5.2.0.0.3.0.","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:49","20/08/2015 17:54:49",,,
+"0","PL-Win7Dual","System.Byte[]","21327","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+iExchange process started on 20/08/2015 at 17:54","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:49","20/08/2015 17:54:49",,,
+"0","PL-Win7Dual","System.Byte[]","21326","(0)","0","Information","Symphony Bluelight iExchange Information: 
+
+Full Path: C:\Program Files\Aligned Assets Limited\Bluelight iExchange\Symphony Bluelight iExchange Service.exe
+My Application Data Path: C:\Users\alignedassets\AppData\Roaming\Symphony
+My Install Path: C:\Program Files\Aligned Assets Limited\Bluelight iExchange","Symphony Bluelight iExchange","System.String[]","0","20/08/2015 17:54:48","20/08/2015 17:54:48",,,

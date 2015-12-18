@@ -1,0 +1,8 @@
+Function compare_result(a,b,c,d,e,f)
+
+   If  a =b and c = d and e=f Then	   
+	   compare_result = "Pass"
+	   else 
+	   compare_result  = "Fail"
+   End If
+End Function

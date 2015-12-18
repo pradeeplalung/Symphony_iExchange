@@ -1,0 +1,1 @@
+sc.exe config "Symphony Bluelight iExchange" obj= ".\alignedassets" password= "Base$TEST1"
