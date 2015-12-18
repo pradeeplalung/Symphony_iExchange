@@ -176,19 +176,6 @@ vSym_DB_Build_Date = "Released DB Version Date"
 				vIX_DBMigration_SQL= fnReadFromExcel(vTP_Path,vTPS,24,2)
 				print "IX_DBMigration_SQL  :"&vIX_DBMigration_SQL
 
-'				vSQL_Environment = fnReadFromExcel(vTP_Path,vTPS,24,2) ' for time being, No impact anywhere in the code 
-'				print "vSQL_Environment  :"&vSQL_Environment
-'				**********' Default value taken from Test Plan Summary sheet**********************				
-'				vSym_DB_Version1 = fnReadFromExcel(vTP_Path,vTPS,3,2)
-'				print "vSym_DB_Version1  :"&vSym_DB_Version1
-'				vSym_DB_Build_Date = fnReadFromExcel(vTP_Path,vTPS,4,2)
-'				print "vSym_DB_Build_Date  :"&vSym_DB_Build_Date
-'				If vSym_DB_Version1 = Null Then
-'					vSym_DB_Version1 = "Release DB Version"
-'				End If
-'				If vSym_DB_Build_Date = Null Then
-'					vSym_DB_Build_Date = "Release DB Version Date"
-'				End If
 '				**********************************************************************************
 								
 				vSinglePointTest = fnReadFromExcel(vTP_Path,vTPS,27,2)
@@ -239,14 +226,6 @@ If vSinglePointTest = "Yes" and vIM_DBMigration_SQL = "Yes" and vIM_DBMigration_
 ''			vSinglePointInstallation = True
 End If
 '**************
-'If vSinglePointTest = "Yes" and vIM_DBMigration_SQL = "No" Then
-'			print "Hello Kela5"
-'			vDBMigrationONOFF = "OFF"
-'			vSinglePointTestONOFF = "ON"
-'			vSinglePointInstallation = fnSinglePointInstallation
-''''			vSinglePointInstallation = True
-'End If
-'**************
 
 If (vSinglePointTest = "Yes" and vIM_DBMigration_SQL = "No" and vIX_DBMigration_SQL = "Yes" and vIX_DBMigration_SQL_Status = True) or (vSinglePointTest = "Yes" and vIM_DBMigration_SQL = "No")  Then
 			print "Hello Kela6"
@@ -285,67 +264,6 @@ End If
 Wait(5)
 fnReport_SQL
 '*********************
-
-
-'
-''****For Debugging ****
-''fnIM_DBMigration_SQL = True ' For Symphony iExchange 5.2.0.0.0 release, no need for iManage database migration
-''fnSinglePointInstallation =True
-''********
-'''				****** STEP5 - Install Service , manager and setting Services ***************
-'If vIM_DBMigration_SQL = "No" and vIM_iXDBMigration_SQL = "Yes" Then
-'		fnIX_DBMigrationIns_SQL
-'		systemutil.Run "C:\Automation\Sym_iEx\BatchFile\Generic\Sym_iEx_AccSet.bat" ' Seting service account
-'		vDBMigrationONOFF = "OFF"
-'		If vSinglePointTest = "Yes" Then			
-'			fnSinglePointInstallation
-'		End If		
-'		
-'	Else 
-'		if vIM_DBMigration_SQL = "Yes" and vIM_DBMigration_SQL_Status = True and vIM_iXDBMigration_SQL = "Yes" Then
-'		fnIX_DBMigrationIns_SQL
-'		systemutil.Run "C:\Automation\Sym_iEx\BatchFile\Generic\Sym_iEx_AccSet.bat"
-'		vDBMigrationONOFF = "ON"
-'		fnSinglePointInstallation
-'		If vSinglePointTest = "Yes" Then
-'			fnSinglePointInstallation
-'		End If
-'	End If
-'End If
-'
-'REM Case 1 : Only for singlepoint testing with or wihout IM_DBMigration, but with
-'If vIM_DBMigration_SQL = "Yes" and vIM_DBMigration_SQL_Status = True and vIM_iXDBMigration_SQL = "No" and vSinglePointTest = "Yes" Then
-'			vDBMigrationONOFF = "ON"
-'			fnSinglePointInstallation	
-'End If
-'
-'REM Case 2 :
-'If vIM_DBMigration_SQL = "No" and vIM_iXDBMigration_SQL = "Yes" and vSinglePointTest = "Yes" Then
-'			Dim vIM_iXDBMigration_SQL_Status 
-'			vIM_iXDBMigration_SQL_Status = fnIX_DBMigrationIns_SQL
-'			systemutil.Run "C:\Automation\Sym_iEx\BatchFile\Generic\Sym_iEx_AccSet.bat"	
-'			vDBMigrationONOFF = "OFF"
-'			If vIM_iXDBMigration_SQL_Status = True Then
-'				fnSinglePointInstallation
-'			End If
-'				
-'End If
-'
-'REM Case 3 :
-'If vIM_DBMigration_SQL = "No" and vIM_iXDBMigration_SQL = "Yes" and vSinglePointTest = "No" Then
-'			vIM_iXDBMigration_SQL_Status = fnIX_DBMigrationIns_SQL
-'			systemutil.Run "C:\Automation\Sym_iEx\BatchFile\Generic\Sym_iEx_AccSet.bat"		
-'End If
-'
-''Case 1 - Ideal
-'If vIM_DBMigration_SQL = "Yes" and vIM_DBMigration_SQL_Status = True and vIM_iXDBMigration_SQL = "Yes" and vSinglePointTest = "Yes" Then
-'			vIM_iXDBMigration_SQL_Status = fnIX_DBMigrationIns_SQL
-'			vDBMigrationONOFF = "ON"
-'			fnSinglePointInstallation	
-'End If
-''
-
-
 ''*********************** Reporting End **************************
 '******************** Copy all Batch files into the Baseline Master ****
 SystemUtil.Run "C:\Automation\Sym_iEx\BatchFile\Generic\SQL\AllBatch4IX_TestPlan_SQL.bat"
@@ -809,7 +727,7 @@ Function fniExSetting(vSystem_Folder)
 			SwfWindow("Symphony iExchange Settings").SwfObject("uteSystemFolder").Click 103,8
 			OptionalStep.SwfWindow("Symphony iExchange Settings").SwfEdit("uteSystemFolder_EmbeddableText").Set ""
 			SwfWindow("Symphony iExchange Settings").SwfEdit("uteSystemFolder_EmbeddableText").Set vSystem_Folder
-			SwfWindow("Symphony iExchange Settings").SwfObject("Save").Click 45,12 @@ hightlight id_;_5505510_;_script infofile_;_ZIP::ssf6.xml_;_
+			SwfWindow("Symphony iExchange Settings").SwfObject("Save").Click 45,12
 			SwfWindow("Symphony iExchange Settings").SwfObject("Close").Click 46,13
 End Function
 
