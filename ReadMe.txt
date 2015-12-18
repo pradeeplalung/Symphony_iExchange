@@ -1,1 +1,1 @@
-1st phase - Complete code for symphony iExchange in SQL Environment
+1st phase - Complete code for Symphony iExchange in SQL Environment, the Same code in Oracle environment is in Progress
